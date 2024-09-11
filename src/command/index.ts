@@ -6,11 +6,11 @@ import { CONFIG } from '../constants';
 
 export const onStartCommand = async (msg: TelegramBot.Message): Promise<void> => {
   const chatId = msg.chat.id;
-  await bot.sendMessage(chatId, 'Welcome to Portkey!');
+  // await bot.sendMessage(chatId, 'Welcome to Portkey!');
 
   await bot.sendPhoto(
     chatId,
-    'https://raw.githubusercontent.com/Portkey-Wallet/portkey-web/master/logo.png',
+    'https://raw.githubusercontent.com/Portkey-Wallet/portkey-telegram-bot-server/master/portkey-banner.png',
     {
       caption: getStartText(),
       parse_mode: 'HTML',
