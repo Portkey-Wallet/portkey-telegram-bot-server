@@ -7,25 +7,22 @@ interface IMessageType {
 }
 const getStartMessageList = (): IMessageType[] => [
   {
-    text: 'Portkey is an account abstraction (AA) wallet, your gateway from Web2 to Web3—offering all the benefits of Web3 without the usual complexities.'
+    text: 'Portkey: Your Gateway from Web2 to Web3!'
   },
   {
-    text: '<b>Effortless Web2 Experience</b>:\nSign up and log in with just one tap, and explore the full potential of Web3 through a wide array of dApps.'
+    text: '<b>Seamless Web2 Experience</b>:\nSign up and log in with one tap.'
   },
   {
-    text: '<b>Enhanced Security</b>:\nSafeguard accounts and assets through social recovery mechanism.'
+    text: '<b>Zero Fees</b>:\nCreate and manage your wallet without any cost.'
   },
   {
-    text: '<b>No Seed Phrases yet Enhanced Security</b>:\nCreate your wallet without the hassle of seed phrases or mnemonics, and protect your assets with social recovery.'
+    text: '<b>Enhanced Security</b>:\nSafeguard your assets through social recovery.'
   },
   {
-    text: '<b>Zero Transaction Worries</b>:\nEnjoy seamless transactions with user-friendly mechanisms that cover fees at no extra cost.'
+    text: '<b>Web3 Interaction</b>:\nExplore diverse Web3 dApps—games, DEXes, bridges, and more!'
   },
   {
-    text: `<b>Rich Interaction</b>:\nImmerse yourself in the world of Web3 dApps—featuring games, DEXes, bridges, and so much more!`
-  },
-  {
-    text: `Tap "Open Portkey Wallet" and unlock a new world of possibilities.`
+    text: 'Tap "<b>Open Portkey Wallet</b>" to unlock the world of Web3!'
   }
 ];
 
