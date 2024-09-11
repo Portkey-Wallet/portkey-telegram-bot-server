@@ -75,6 +75,10 @@ export const playMessageList = [
   {
     title: '<b>💰 Trade crypto—AwakenSwap</b>',
     text: `Decentralised exchange for token swapping, liquidity providing, and arbitraging.\n<a href="${CONFIG.AWAKEN_SWAP}">Trade Cryptos</a>`
+  },
+  {
+    title: '<b>🎯 Voting tool—Votigram</b>',
+    text: `Cast your vote where your voice truly matters.\n<a href="${CONFIG.VOTIGRAM}">Try Now</a>`
   }
 ];
 
