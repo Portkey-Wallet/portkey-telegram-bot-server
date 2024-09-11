@@ -54,12 +54,12 @@ jobs:
           github-token: ${{ secrets.TOK }}
           script: |
             await github.rest.actions.createWorkflowDispatch({
-              owner: 'portkey',
+              owner: 'Portkey-Wallet',
               repo: 'devops',
               workflow_id: 'deployment_testnet.yaml',
-              ref: 'main',
+              ref: 'master',
               inputs: {
-                appName: 'portkey-bot',
+                appName: 'portkey-telegram-bot-server',
                 commit_sha: 'sha-${{ needs.build-and-push-image.outputs.short_sha }}',
               }
             })
